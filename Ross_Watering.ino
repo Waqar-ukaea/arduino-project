@@ -11,7 +11,7 @@ const int resDPin = 4;  // the number of the water sensor for resevoir B pin
 const int pump = 13;    // the number of the pump pin
 
 // variables will change:
-bool mainState = LOW;  // variable for reading the pushbutton status
+bool mainState = HIGH;  // variable for reading the pushbutton status
 bool resAState = LOW;  // variable for reading the pushbutton status
 bool resDState = LOW;  // variable for reading the pushbutton status
 bool pumpCommand = LOW;  // variable for reading the pushbutton status
